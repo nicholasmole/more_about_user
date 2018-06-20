@@ -30,11 +30,13 @@ class MoreAboutUser {
 	}
 
 	public function more_about_user_plugin_options() {
-	
+		
+		$blogusers = get_users( 'orderby=login' );
     $bootstrap = Helpers::get_template_path('Bootstrap.php');
-		$admin_page = Helpers::get_template_path('AdminPage.php');
+		$WPTable = Helpers::get_template_path('WPTable.php');
+		
     include $bootstrap;
-		include $admin_page;
+		include $WPTable;
   }
 
 	public function run()
