@@ -1,0 +1,12 @@
+{
+  "name": "nicholasmole/more_about_user",
+  "version" : "0.1.0",
+  "description": "Get more information about user",
+  "type": "wordpress-plugin",
+  "authors": [
+    {
+      "name": "Nicholas Mole",
+      "email": "nmole065@gmail.com"
+    }
+  ]
+}
